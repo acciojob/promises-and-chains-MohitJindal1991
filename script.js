@@ -6,7 +6,7 @@ Form.addEventListener('submit',(e)=>{
 	const Name=document.querySelector('#name').value.trim();
 
 	if(!Age || !Name){
-		alert("Please Enter valid details.");
+		alert("Please enter valid details.");
 		return;
 	}
 
